@@ -56,7 +56,7 @@
 	-------------------------------------------------------------------------*/
 		
 		public function getConfigData() {
-			$config = Symphony::Configuration();
+			$config = $this->_Parent->Configuration;
 			$data = array(
 				'remove-header'	=> false,
 				'remove-footer'	=> false,
